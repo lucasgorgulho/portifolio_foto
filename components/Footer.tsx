@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Camera className="w-5 h-5" />
-              <span className="font-semibold tracking-wide">FOTOGRAFIA</span>
+              <span className="font-semibold tracking-wide">CLICKS DA CAH</span>
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Capturando momentos únicos com autenticidade desde 2014.
@@ -44,9 +44,9 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4 text-sm">Contato</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>contato@fotografia.com</li>
-              <li>(11) 99999-9999</li>
-              <li>São Paulo, SP</li>
+              <li>clicksdacah@gmail.com</li>
+              <li>(35) 99842-3458</li>
+              <li>Maria da Fé, MG</li>
             </ul>
           </div>
 
@@ -54,22 +54,15 @@ export function Footer() {
             <h4 className="font-semibold mb-4 text-sm">Redes Sociais</h4>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/clicksdacah"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-70 transition-opacity"
               >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:opacity-70 transition-opacity"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="mailto:contato@fotografia.com" className="hover:opacity-70 transition-opacity">
+              
+              <a href="mailto:clicksdacah@gmail.com" className="hover:opacity-70 transition-opacity">
                 <Mail className="w-5 h-5" />
               </a>
             </div>
@@ -77,7 +70,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/70 text-xs sm:text-sm">
-          <p>© 2025 Fotografia. Todos os direitos reservados.</p>
+          <p>© 2025 ClicksDaCah. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

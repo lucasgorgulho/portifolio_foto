@@ -10,16 +10,11 @@ export function Pricing() {
   const included = [
     "Edição profissional de todas as fotos",
     "Arquivos de alta resolução",
-    "Galeria online por 1 ano",
-    "Autorização para impressão",
-    "Como chegar em Hamburgo",
+    "Galeria online por 2 mesesw",
   ]
 
   const additional = [
-    "Deslocamentos fora de Hamburgo: €0,50/km",
-    "Viagens internacionais: preço calculado de acordo com o custo",
-    "Processamento expresso: ~€150",
-    "Horas adicionais: €100/hora",
+    "Horas adicionais: R$100/hora",
     "Impressões de alta qualidade: sob encomenda",
   ]
 

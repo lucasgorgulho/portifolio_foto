@@ -136,10 +136,10 @@ export function Contact() {
               className="mt-12 sm:mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6"
             >
               {[
-                { icon: Mail, label: "contato@fotografia.com", href: "mailto:contato@fotografia.com" },
-                { icon: Phone, label: "(11) 99999-9999", href: "tel:+5511999999999" },
-                { icon: Instagram, label: "@fotografia", href: "https://instagram.com" },
-                { icon: MapPin, label: "São Paulo, SP", href: "#" },
+                { icon: Mail, label: "clicksdacah@gmail.com", href: "mailto:clicksdacah@gmail.com" },
+                { icon: Phone, label: "(35) 99842-3458", href: "tel:+5535998423458" },
+                { icon: Instagram, label: "@clicksdacah", href: "https://instagram.com/clicksdacah" },
+                { icon: MapPin, label: "Minas Gerais, MG", href: "#" },
               ].map((item, index) => (
                 <motion.a
                   key={item.label}

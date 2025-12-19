@@ -16,12 +16,11 @@ export function Services() {
         "6 a 10 horas de suporte",
         "Sessão fotográfica de noivado incluída",
         "Mais de 300 fotos editadas",
-        "Galeria online e pen-drive",
-        "Comunicado para impressão",
-        "Segundo fotógrafo opcional (+€400)",
+        "Galeria online por 2 meses",
+        "Autorização para impressão",
+        "Entrega em até 8 semanas",
       ],
-      price: "1.800",
-      originalPrice: "2.200",
+      price: "2.500",
     },
     {
       title: "Festas de aniversário",
@@ -37,8 +36,8 @@ export function Services() {
         "Entrega na mesma semana",
         "Retratos de família incluídos",
       ],
-      price: "450",
-      originalPrice: "650",
+      price: "1.200",
+    
     },
     {
       title: "Cerimônias comemorativas",
@@ -54,8 +53,7 @@ export function Services() {
         "Uma abordagem sensível",
         "Processamento rápido (3-5 dias)",
       ],
-      price: "350",
-      originalPrice: "500",
+      price: "1.700",
     },
     {
       title: "Sessões fotográficas individuais",
@@ -71,8 +69,7 @@ export function Services() {
         "A consulta incluiu",
         "Possibilidade de várias combinações de roupas",
       ],
-      price: "280",
-      originalPrice: "400",
+      price: "1.400",
     },
   ]
 
@@ -127,11 +124,13 @@ export function Services() {
 
                 <div className="mt-6 pt-4 border-t border-border">
                   <div className="flex items-baseline gap-2 mb-3">
-                    <span className="text-2xl sm:text-3xl font-bold text-foreground">{service.price}€</span>
-                    <span className="text-sm text-muted-foreground line-through">{service.originalPrice}€</span>
+                    <span className="text-2xl sm:text-3xl font-bold text-foreground">R$ {service.price}</span>
+
                   </div>
 
-                  <button className="w-full py-2.5 sm:py-3 bg-[#eebbbb] text-gray-800 font-medium hover:bg-[#f6c8c7] transition-colors text-sm">
+                  <button 
+                  onClick={() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })}
+                  className="w-full py-2.5 sm:py-3 bg-[#eebbbb] text-gray-800 font-medium hover:bg-[#f6c8c7] transition-colors text-sm">
                     Reservar
                   </button>
                 </div>

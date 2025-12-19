@@ -9,22 +9,22 @@ export function About() {
     {
       icon: MapPin,
       title: "Localização",
-      description: "Hamburgo, disponível mundialmente com prazo de entrega de 3 meses.",
+      description: "Maria da Fé, disponível localmente com prazo de entrega de 3 meses.",
     },
     {
       icon: Camera,
       title: "Experiência",
-      description: "18 anos de paixão pela fotografia desde os 10 anos de idade.",
+      description: "10 anos de paixão pela fotografia desde os 10 anos de idade.",
     },
     {
       icon: Heart,
       title: "Estilo",
-      description: "Autêntico • Natural • Mágico",
+      description: "Autêntica • Natural • Espontânea",
     },
     {
       icon: Compass,
       title: "Paixão",
-      description: "Amante da natureza e de viagens",
+      description: "Viagens • Natureza • Aventuras",
     },
   ]
 
@@ -42,8 +42,8 @@ export function About() {
           >
             <div className="aspect-[4/5] sm:aspect-[3/4] bg-muted overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1643968612613-fd411aecd1fd?w=800"
-                alt="Paula Stern"
+                src="/foto_cariny.jpeg"
+                alt="Cariny Carvalho"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -57,7 +57,7 @@ export function About() {
             className="space-y-6"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground leading-tight">
-              Conheça Paula Stern
+              Conheça Cariny Mariane
             </h2>
 
             <div className="space-y-4 text-muted-foreground leading-relaxed text-sm sm:text-base">
@@ -67,7 +67,7 @@ export function About() {
                 vida toda.
               </p>
               <p>
-                Sediada na bela cidade de Hamburgo, especializo-me em criar imagens autênticas, naturais e imbuídas de
+                Sediada na bela cidade de Maria da Fé, especializo-me em criar imagens autênticas, naturais e imbuídas de
                 um toque de magia.
               </p>
             </div>
@@ -110,10 +110,10 @@ export function About() {
             {/* New Stats Grid */}
             <div className="grid grid-cols-2 gap-4 pt-4">
               {[
-                { label: "Experiência", value: "18 anos" },
-                { label: "Projetos", value: "500+" },
-                { label: "Clientes", value: "300+" },
-                { label: "Localização", value: "Hamburgo" },
+                { label: "Localização", value: "Maria da Fé" },
+                { label: "Disponibilidade", value: "Imediata" },
+                { label: "Entrega", value: "3 meses" },
+                { label: "Atuação", value: "Local" },
               ].map((item, index) => (
                 <motion.div
                   key={item.label}

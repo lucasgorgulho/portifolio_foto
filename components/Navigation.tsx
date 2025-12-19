@@ -63,7 +63,7 @@ export function Navigation() {
                 className={`tracking-wider relative text-sm sm:text-base ${isScrolled ? "text-black" : "text-white"}`}
                 whileHover={{ letterSpacing: "0.2em" }}
               >
-                FOTOGRAFIA
+                CLICKS DA CAH
               </motion.span>
 
               {/* Underline Animation */}
